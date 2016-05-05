@@ -55,6 +55,17 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>2.6</version>
             </plugin>
+                    <plugin>
+          <groupId>org.jboss.as.plugins</groupId>
+          <artifactId>jboss-as-maven-plugin</artifactId>
+          <version>7.2</version> <!-- or whatever you want -->
+        </plugin>
+            <plugins>
+      <plugin>
+          <groupId>org.jboss.as.plugins</groupId>
+          <artifactId>jboss-as-maven-plugin</artifactId>
+          <version>7.2</version> <!-- or whatever you want -->
+        </plugin>
         </plugins>
     </reporting>
 </project>
